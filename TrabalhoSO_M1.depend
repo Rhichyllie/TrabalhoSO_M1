@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1744303268 source:c:\users\rhich\downloads\trabalhoso_m1\trabalhoso_m1\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+
