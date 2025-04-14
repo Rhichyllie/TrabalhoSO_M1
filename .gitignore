@@ -1,0 +1,8 @@
+# Ignorar arquivos binários e objetos
+bin/
+obj/
+*.depend
+*.cbp
+
+# Ignorar arquivos de chaves (sua chave privada)
+github_pat_*
