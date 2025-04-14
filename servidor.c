@@ -86,7 +86,7 @@ void *handle_command(void *arg) {
                 }
             }
             if (!found)
-                printf("SELECT: Registro com id=%d não encontrado.\n", id);
+                printf("SELECT: Registro com id=%d nao encontrado.\n", id);
             pthread_mutex_unlock(&db_mutex);
         } else {
             printf("SELECT: Comando mal formatado: %s\n", cmd);
@@ -107,7 +107,7 @@ void *handle_command(void *arg) {
                 }
             }
             if (!found)
-                printf("UPDATE: Registro com id=%d não encontrado.\n", id);
+                printf("UPDATE: Registro com id=%d nao encontrado.\n", id);
             pthread_mutex_unlock(&db_mutex);
         } else {
             printf("UPDATE: Comando mal formatado: %s\n", cmd);
