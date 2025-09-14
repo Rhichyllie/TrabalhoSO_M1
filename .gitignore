@@ -1,8 +1,17 @@
-# Ignorar arquivos binários e objetos
-bin/
+cat > .gitignore <<'EOF'
+servidor
+cliente
+*.o
 obj/
-*.depend
-*.cbp
-
-# Ignorar arquivos de chaves (sua chave privada)
-github_pat_*
+build/
+dist/
+.vscode/
+*.code-workspace
+.DS_Store
+log_servidor.txt
+/tmp/spool_fifo
+*github_pat_*
+*.pub
+*.key
+*.pem
+EOF
