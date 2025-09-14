@@ -1,4 +1,4 @@
-cat > .gitignore <<'EOF'
+
 servidor
 cliente
 *.o

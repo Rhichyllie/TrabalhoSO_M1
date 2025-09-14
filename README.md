@@ -1,4 +1,3 @@
-cat > README.md <<'EOF'
 # Spooler de Impressão Paralelo (SO - M1)
 
 Trabalho da disciplina **Sistemas Operacionais** (UNIVALI) — Avaliação M1: *Sincronização, Processos e Threads*.
